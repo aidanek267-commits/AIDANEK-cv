@@ -1,0 +1,167 @@
+/* Жалпы жөндөөлөр */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background: #e9eef5;
+  padding: 20px;
+}
+
+.container{
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+/* Компьютердеги сол панель */
+.left-panel{
+  width: 35%;
+  background: #040b18;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.profile-img{
+  width: 140px;
+  height: 140px;
+  border-radius: 15px;
+  object-fit: cover;
+  border: 3px solid white;
+  margin-bottom: 15px;
+}
+
+.left-panel h2{
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.phone{
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.left-panel h3{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  padding-bottom: 5px;
+}
+
+.left-panel ul{
+  list-style: none;
+}
+
+.left-panel ul li{
+  margin: 8px 0;
+}
+
+/* Компьютердеги оң панель */
+.right-panel{
+  width: 65%;
+  padding: 40px;
+}
+
+.section{
+  margin-bottom: 30px;
+}
+
+.right-panel h2{
+  color: #051639;
+  margin-bottom: 12px;
+  border-left: 4px solid #051639;
+  padding-left: 10px;
+}
+
+.right-panel p{
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.right-panel ul{
+  padding-left: 20px;
+}
+
+.right-panel ul li{
+  margin-bottom: 8px;
+}
+
+a{
+  color: #0a2a6b;
+  text-decoration: none;
+  font-weight: 500;
+  word-wrap: break-word; /* Шилтемелер телефондо экрандан чыгып кетпеши үчүн */
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+/* Кнопка */
+.btn{
+  margin-top: 15px;
+  padding: 12px 24px;
+  background: #051639;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.btn:hover{
+  background: #0a2a6b;
+  transform: translateY(-2px);
+}
+
+/* --- ТЕЛЕФОН ЖАНА ПЛАНШЕТКЕ ЫЛАЙЫКТАШТЫРУУ --- */
+
+/* Экран өлчөмү 768px жана андан кичине болгондо (Телефондордо) */
+@media screen and (max-width: 768px){
+  body {
+    padding: 0; /* Экрандын капталдарында бош орун калтырбайт */
+  }
+
+  .container {
+    flex-direction: column; /* Эки панелди биринин астына бирин коет (узун кылат) */
+    border-radius: 0; /* Капталдары түз болот */
+  }
+
+  .left-panel,
+  .right-panel {
+    width: 100%; /* Панелдер толук экрандын туурасын ээлейт */
+    padding: 30px 20px;
+  }
+
+  .profile-img {
+    width: 120px; /* Телефондо сүрөт бир аз кичирейет */
+    height: 120px;
+  }
+
+  .left-panel h2 {
+    font-size: 22px;
+  }
+
+  .right-panel h2 {
+    font-size: 20px;
+  }
+
+  p, li, a {
+    font-size: 16px; /* Телефондо окуганга ыңгайлуу өлчөм */
+  }
+
+  .btn {
+    width: 100%; /* Кнопка телефондо толук туурасы менен жайылат */
+    text-align: center;
+  }
+}

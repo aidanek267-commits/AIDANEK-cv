@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ky">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Менин CV</title>
+  </head>
+  <body>
+    <header>
+      <h1>Төлөнова Айданек</h1>
+      <img src="your-photo.jpg" alt="Айданек Төлөнова сүрөтү" width="200" />
+      <nav>
+        <ul>
+          <li><a href="#about">Өзүм тууралуу</a></li>
+          <li><a href="#contacts">Байланыш</a></li>
+          <li><a href="#skills">Навыктар</a></li>
+          <li><a href="#code">Код Мисалы</a></li>
+          <li><a href="#projects">Долбоорлор</a></li>
+          <li><a href="#education">Билим</a></li>
+          <li><a href="#language">Англис тили</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>Өзүм тууралуу</h2>
+        <p>
+          Максатым: ата-энемдин үмүтүн актоо, жогорку билим, жеке бизнес, бактылуулук. 
+          Жалганды жаман көрөм, адилеттүүлүк баарында болуусун каалайм, тартипти жакшы көрөм. 
+          Закон иштерин жакшы көрөм. Прокурор болуу арманым.
+        </p>
+      </section>
+
+      <section id="contacts">
+        <h2>Байланыш</h2>
+        <ul>
+          <li>Email: aidanek267@gmail.com</li>
+          <li>Телефон: +996 999 616 158</li>
+          <li>Instagram: <a href="https://www.instagram.com/_kylych5ekova">_kylych5ekova</a></li>
+        </ul>
+      </section>
+
+      <section id="skills">
+        <h2>Навыктар</h2>
+        <ul>
+          <li>Canva</li>
+          <li>Microsoft Word (үйрөнүп жатам)</li>
+          <li>Microsoft Excel (үйрөнүп жатам)</li>
+        </ul>
+      </section>
+
+      <section id="code">
+        <h2>Код Мисалы</h2>
+        <pre>
+<code>
+&lt;ul&gt;
+  &lt;li&gt;Canva&lt;/li&gt;
+  &lt;li&gt;Microsoft Word (үйрөнүп жатам)&lt;/li&gt;
+  &lt;li&gt;Microsoft Excel (үйрөнүп жатам)&lt;/li&gt;
+&lt;/ul&gt;
+</code>
+        </pre>
+      </section>
+
+      <section id="projects">
+        <h2>Долбоорлор</h2>
+        <ul>
+          <li>
+            <strong>Мини-ролл бизнес вебсайты</strong> - HTML түзүмү, байланыш формасы (процесс учурунда)
+          </li>
+        </ul>
+      </section>
+
+      <section id="education">
+        <h2>Билим</h2>
+        <ul>
+          <li>67-ж. Раимкулов атындагы кесиптик лицей, 1-курс - "Веб жана мультимедиалык тиркемелерди иштеп чыгуучу"</li>
+          <li>"Ашпозчу-кондитер" - 3 айлык курс, сертификат алынган</li>
+        </ul>
+      </section>
+
+      <section id="language">
+        <h2>Англис тили</h2>
+        <p>Деңгээл: A2 - Негизги англис тилин түшүнүп, жазып үйрөнүүдөм. Жакында өзүн-өзү үйрөнүп жатам.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Айданек Төлөнова | <a href="https://linktr.ee/jyldyzacademy2020">Jyldyz Academy</a> | 2025</p>
+    </footer>
+  </body>
+</html>
